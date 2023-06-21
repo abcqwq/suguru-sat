@@ -56,5 +56,3 @@ h_{m,1} h_{m,2} ... h_{m,n}
 ```
 
 In this format, `h_{i,j}` is a positive integer, indicating the number contained in the cell `(i,j)`.
-
-Similarly, to input the puzzle to the verifier, replace the initial values `h_{i, j}` for all `i` and `j` with the solution that you wish to verify.
