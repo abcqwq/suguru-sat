@@ -21,7 +21,7 @@ Within this repository, you will find the following components:
 
 To use the Suguru puzzle solver and verifier, follow these straightforward steps:
 
-1. To compile the `solver.cpp` file, place it in the same directory as the MiniSAT library. You can find the MiniSAT library in this [repository](https://github.com/abcqwq/minisat). Another option is to directly utilize the pre-compiled executable file that is provided.
+1. For an extensive guide on how to compile the solver, please refer to this [medium blog](https://medium.com/@timbersama2020/minisat-installation-guide-efb99a897138). Another option is to directly utilize the pre-compiled executable file that is provided.
 2. Execute the resulting executable file.
 3. To use the solver, input the Suguru puzzle according to the format described in the [Input/Output Format](#inputoutput-format) section.
 
@@ -56,5 +56,3 @@ h_{m,1} h_{m,2} ... h_{m,n}
 ```
 
 In this format, `h_{i,j}` is a positive integer, indicating the number contained in the cell `(i,j)`.
-
-Similarly, to input the puzzle to the verifier, replace the initial values `h_{i, j}` for all `i` and `j` with the solution that you wish to verify.
